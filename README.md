@@ -116,6 +116,9 @@ if faces1 and faces2:
     #### Return Values:
     - `similarity score` (`0`-`100`): The higher values indicate greater similarity
 ### Configurations
+    - `Default Threshold`: `75` (for determining if two faces belong to the same person)
+    - `Supported Formats`: `JPG`, `PNG`, `BMP`, TIFF`
+    - `Face Detection`: Automatic detection of multiple faces per image.
 #### Please contact us to get more accurate solution:</br>
 🧙`Email:` contact@kby-ai.com</br>
 🧙`Telegram:` [@kbyaisupport](https://t.me/kbyaisupport)</br>
