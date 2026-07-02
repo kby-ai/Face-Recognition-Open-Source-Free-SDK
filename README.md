@@ -49,34 +49,25 @@ This repository by [KBY-AI](https://github.com/kby-ai) enables developers to int
 🔍 Face similarity comparison</br>
 🖼️ Support for multiple image formats (`JPG`, `PNG`, `BMP`, and more)</br>
 
-> To get Face SDK(mobile), please visit products [here](https://github.com/kby-ai/Product):<br/>
+## How to Install SDK
+1. Install `anaconda` environment if not already installed.</br>
+Download [here](https://www.anaconda.com/products/distribution)
+2. Create and activate `conda` environment.</br>
+```bash
+conda create -n kbyai python=3.9
+conda activate kbyai
+```
+3. Install dependencies.</br>
+```bash
+pip install -r requirements.txt
+```
+4. Validate installation</br>
+```bash
+python run.py
+```
 
-## Try the API
-### Online Demo
-  You can test the SDK using images from the following URL:
-  https://web.kby-ai.com
-  
-  ![image](https://github.com/kby-ai/FaceRecognition-Docker/assets/125717930/a7aa607c-8c40-4ef0-9592-7332c97457ca)
-  
-### Postman
-  To test the API, you can use `Postman`. Here are the endpoints for testing:
-  - Test with an image file: Send a POST request to `http://18.221.33.238:8081/compare_face`.
-  - Test with a `base64-encoded` image: Send a POST request to `http://18.221.33.238:8081/compare_face_base64`.
 
-    You can download the `Postman` collection to easily access and use these endpoints. [click here](https://github.com/kby-ai/FaceRecognition-Docker/tree/main/postman/kby-ai-face.postman_collection.json)
-    
-    ![image](https://github.com/kby-ai/FaceRecognition-Docker/assets/125717930/dce48454-6d41-46f0-9623-b26bec103616)
-
-
-## SDK License
-
-This project uses `KBY-AI`'s `Face Recognition Server SDK`, which requires a license per machine.
-
-- The code below shows how to use the license: https://github.com/kby-ai/FaceRecognition-Docker/blob/5c6bdaff0e8154d6c6472ac9faf9158c6a6e7b47/app.py#L26-L36
-
-- To request the license, please provide us with the `machine code` obtained from the `getMachineCode` function.
-
-#### Please contact us:</br>
+#### Please contact us to get more accurate solution:</br>
 🧙`Email:` contact@kby-ai.com</br>
 🧙`Telegram:` [@kbyaisupport](https://t.me/kbyaisupport)</br>
 🧙`WhatsApp:` [+13348402323](https://wa.me/+13348402323)</br>
