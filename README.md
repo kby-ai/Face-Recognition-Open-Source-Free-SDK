@@ -80,7 +80,7 @@ face_info = face_sdk.GetImageInfo(image_path, faceMaxCount=10)
 # Compare two faces
 similarity = face_sdk.get_similarity(feature1, feature2)
 ```
-2. Example Code Lines for Face Comparison
+2. Sample Code Lines for Face Comparison
 ```python
 # Compare two images
 image1 = "test/1.jpg"
@@ -99,7 +99,23 @@ if faces1 and faces2:
     is_same_person = similarity >= 75
     print(f"Same person: {is_same_person}")
 ```
-
+## API Reference
+### Main Fuctions
+1. `GetImageInfo(image_path, faceMaxCount)`: Extracts face information from a static image.</br>
+    #### Arguments:
+    - `image_path` (str): Path to the input image
+    - `faceMaxCount` (int): Maximum number of faces to detect
+    #### Return Values:
+    - `bbox`: Face bounding box coordinates
+    - `landmarks`: Facial landmark points
+    - `embedding`: Feature embedding vector 
+2. `get_similarity(feature1, feature2)`: Compares two face feature vectors.
+    #### Arguments:
+    - `feature1` (array): First face feature vector
+    - `feature2` (array): Second face feature vector
+    #### Return Values:
+    - `similarity score` (`0`-`100`): The higher values indicate greater similarity
+### Configurations
 #### Please contact us to get more accurate solution:</br>
 🧙`Email:` contact@kby-ai.com</br>
 🧙`Telegram:` [@kbyaisupport](https://t.me/kbyaisupport)</br>
