@@ -34,13 +34,20 @@ This repository by [KBY-AI](https://github.com/kby-ai) enables developers to int
   | 6        | [Face Recognition - C#](https://github.com/kby-ai/FaceRecognition-CSharp-.NET)    | Face Recognition |
 
 ### ◾Key Features
-🔒 100% On-Premises Processing: All face detection and recognition are performed locally, ensuring that no data ever leaves your device.</br>
-🔧 Easy Integration: Developer-friendly APIs enable seamless integration into existing applications.</br>
-🎯 High Accuracy: Powered by state-of-the-art deep learning models for reliable face detection and recognition.</br>
-🌐 Cross-Platform Support: Fully compatible with both Windows and Linux environments.</br>
-⚡ Real-Time Performance: Delivers fast, low-latency face detection and recognition for real-time applications.</br>
-📱 GPU Optional: Optimized to run efficiently on CPU-only systems, with optional GPU acceleration for enhanced performance.</br>
-🆓 Free and Open Source: Available at no cost under an open-source license, with no licensing fees or usage restrictions.</br>
+🔒 `100% On-Premises Processing`: All face detection and recognition are performed locally, ensuring that no data ever leaves your device.</br>
+🔧 `Easy Integration`: Developer-friendly `API`s enable seamless integration into existing applications.</br>
+🎯 `High Accuracy`: Powered by state-of-the-art deep learning models for reliable face detection and recognition.</br>
+🌐 `Cross-Platform Support`: Fully compatible with both `Windows` and `Linux` environments.</br>
+⚡ `Real-Time Performance`: Delivers fast, low-latency face detection and recognition for real-time applications.</br>
+📱 `GPU Optional`: Optimized to run efficiently on `CPU`-only systems, with optional `GPU` acceleration for enhanced performance.</br>
+🆓 `Free and Open Source`: Available at no cost under an open-source license, with no licensing fees or usage restrictions.</br>
+
+### ◾Capabilities
+👤 Face detection and bounding box extraction</br>
+📍 Facial landmark detection</br>
+🧠 Face feature embedding generation</br>
+🔍 Face similarity comparison</br>
+🖼️ Support for multiple image formats (`JPG`, `PNG`, `BMP`, and more)</br>
 
 > To get Face SDK(mobile), please visit products [here](https://github.com/kby-ai/Product):<br/>
 
